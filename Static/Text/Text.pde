@@ -4,7 +4,7 @@ PFont titleFont;
 color purple=#2C08FF, resetDefaultInk=#FFFFFF;
 //
 //Display Geometry, Display orientation: landscape, portrait, or square
-size (500, 600); //fulScreen(); //displayWidth & displayHeight
+fullScreen(); //size (500, 600); //displayWidth & displayHeight
 //Population
 titleX = displayWidth*1.5;
 titleY = displayHeight*1/10;
