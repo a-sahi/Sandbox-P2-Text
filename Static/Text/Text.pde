@@ -4,8 +4,7 @@ PFont titleFont;
 color purple=#2C08FF, resetDefaultInk=#FFFFFF;
 //
 //Display Geometry, Display orientation: landscape, portrait, or square
-fullScreen(); //size (500, 600); //displayWidth & displayHeight
-println(displayWidth, displayHeight);
+size (500, 600); //fulScreen(); //displayWidth & displayHeight
 //Population
 titleX = displayWidth*1.5;
 titleY = displayHeight*1/10;
@@ -24,7 +23,7 @@ rect(titleX, titleY, titledisplayWidth, titledisplayHeight);
 fill(purple); //Ink, hexidecimal copied from Color Selector
 textAlign(CENTER, CENTER); //Alight X&Y, see Processing.org / Reference
 //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
-textFont(titleFont, 10); //Change the number until it fits
+textFont(titleFont, 50); //Change the number until it fits
 text(title, titleX, titleY, titledisplayWidth, titledisplayHeight);
 fill(resetDefaultInk);
 //End Program
